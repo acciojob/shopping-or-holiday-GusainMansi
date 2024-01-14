@@ -9,16 +9,16 @@
 <body>
     <script type="text/javascript" src="./script.js">
 </script>
-<ol data-ns-test="shoppingList">
-	<li>Dog food</li>
-	<li>Medicine for cows</li>
-	<li>That's it</li>
+<ol>
+	<li data-ns-test="shoppingList">Dog food</li>
+	<li shoppingList="shoppingList">Medicine for cows</li>
+	<li shoppingList="shoppingList">That's it</li>
 	
 </ol>
-	<ul data-ns-test="holidayList">
-		<li>Paris</li>
-		<li>Amsterdam</li>
-		<li>LA</li>
+	<ul>
+		<li data-ns-test="holidayList">Paris</li>
+		<li data-ns-test="holidayList">Amsterdam</li>
+		<li data-ns-test="holidayList">LA</li>
 		
 	</ul>
 </body>
